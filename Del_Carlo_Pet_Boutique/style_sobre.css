@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #1d3557;
+    line-height: 1.5;
+    background-image: url("images/Yellow\ .jpg"); 
+    background-size: cover;          
+    background-repeat: no-repeat;    
+    background-position: center;     
+    
+}
+
+#cabecalho-principal {
+    background-color: #fdbc3c;
+    padding: 14px 30px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#logo {
+    width: 70px;
+    height: auto;
+}
+#titulo-boutique {
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-left: 6px;
+}
+
+#menu-navegacao {
+    margin-left: auto;
+    display: flex;
+    gap: 20px;
+}
+.link-nav {
+    color: #1d3557;
+    text-decoration: none;
+    font-weight: 700;
+    padding: 6px 0;      
+    border-bottom: 3px solid transparent;
+    transition: color .18s, border-bottom .18s;
+}
+.link-nav:hover,
+.link-nav.ativo {
+    color: #ffffff;
+    border-bottom: 3px solid #ffffff; 
+}
+
+main#principal {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 60px;
+    min-height: 520px;
+    background-image: url("images/yellow.jpg");
+    background-size: cover;       
+    background-position: center;   
+    background-repeat: no-repeat;   
+}
+
+#conteudo-texto {
+    width: 55%;
+}
+
+#titulo-destaque {
+    font-size: 4.2rem;     
+    line-height: 1.02;
+    color: #1d3557;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-shadow:
+        4px 4px 10px rgba(0,0,0,0.35),
+        1px 1px 3px rgba(0,0,0,0.25);
+}
+
+#descricao-destaque {
+    margin-top: 20px;
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #1d3557;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.12);
+}
+
+footer {
+    background-color: #1d3557;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    margin-top: 20px;
+}

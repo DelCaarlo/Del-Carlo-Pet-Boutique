@@ -1,0 +1,46 @@
+body#pagina {
+    background-color: #1d3557;
+}
+
+
+#cabecalho-principal {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #1d3557;
+    padding: 20px;
+    color: white;
+}
+
+#menu-navegacao a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.link-nav.ativo {
+    color: #f6c94d;
+}
+
+
+.rounded-4 {
+    border-radius: 20px;
+}
+
+.sombra {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.sombra-card {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.25);
+}
+
+
+#rodape {
+    background: #1d3557;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}

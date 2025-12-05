@@ -1,0 +1,176 @@
+#pagina-contato {
+    margin: 0;
+    color: #1d3557;
+    background-image: url("images/ite.jpg"); 
+    background-size: cover;         
+    background-repeat: no-repeat;    
+    background-position: center;     
+}
+
+
+#cabecalho-principal {
+    background-color: #ffbc00; 
+    color: #1d3557; 
+    padding: 15px 30px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    width: 80px;
+    height: auto;
+}
+
+#titulo-boutique {
+    font-family: 'Verdana', Geneva, Tahoma, sans-serif; 
+    font-size: 1.8em;
+    margin-right: auto;
+    margin-left: 20px;
+}
+
+#menu-navegacao {
+    display: flex;
+    gap: 25px;
+}
+
+.link-nav {
+    color: #1d3557;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 0;
+    transition: 0.3s;
+    border-bottom: 3px solid transparent;
+}
+
+.link-nav:hover,
+.link-nav.ativo {
+    color: #ffffff;
+    border-bottom: 3px solid #ffffff;
+}
+#menu-navegacao a:hover {
+    text-decoration: underline;
+}
+
+#conteudo-principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;     
+    padding: 20px;
+}
+
+h1 {
+    color: #1d3557;
+}
+
+#titulo-24h {
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+}
+
+#numero-telefone {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+#subtitulo-formulario {
+    font-size: 0.95rem;
+    margin-bottom: 12px;
+}
+
+
+#texto-formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#formulario-contato input, #formulario-contato textarea, #botao-submit {
+    display: block;
+    width: 600px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#botao-submit {
+    background-color: #1d3557;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 621.778px;
+}
+
+#botao-submit:hover {
+    background-color: #1d3557;
+}
+
+footer {
+    margin-top: 20px;
+}
+
+#card-formulario {
+    background: rgba(255, 255, 255, 0.92);
+    padding: 18px 22px;          
+    border-radius: 14px;
+    max-width: 430px;           
+    width: 90%;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.20);
+    backdrop-filter: blur(4px);
+    text-align: center;
+}
+
+
+
+
+#conteudo-principal {
+    padding-top: 100px;  
+}
+#conteudo-principal {
+    padding-top: 100px;  
+}
+
+#formulario-contato input,
+#formulario-contato textarea {
+    width: 100%;
+    padding: 7px;                
+    margin-bottom: 10px;         
+    border-radius: 6px;
+    border: 1px solid #b7b7b7;
+    font-size: 0.9rem;
+}
+
+#campo-mensagem {
+    height: 90px;               
+    resize: none;
+}
+
+#botao-submit {
+    width: 100%;
+    padding: 8px;             
+    border-radius: 6px;
+    background-color: #1d3557;
+    color: white;
+    font-size: 0.95rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+#botao-submit:hover {
+    opacity: 0.85;
+}
+footer {
+    background-color: #1d3557;
+    color: white;
+    padding: 18px;
+    text-align: center;
+    margin-top: 60px;
+    font-size: 0.95em;
+    box-shadow: 0px -3px 6px rgba(0,0,0,0.2);
+} 
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #1d3557;
+}

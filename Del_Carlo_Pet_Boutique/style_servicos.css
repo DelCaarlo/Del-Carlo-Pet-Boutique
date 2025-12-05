@@ -1,0 +1,13 @@
+body#pagina {
+    background: url("images/fundo.jpg") no-repeat center center fixed !important;
+    background-size: cover !important;
+}
+
+
+img.rounded-4 {
+    border-radius: 20px;
+}
+
+img.shadow {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
